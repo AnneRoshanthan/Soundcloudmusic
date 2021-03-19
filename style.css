@@ -18,7 +18,7 @@ button:hover{
 
 img{
 	height: 300px;
-	width: 500px;
+	width: 489px;
     object-fit:fill;
     align-items: center;
     
@@ -28,7 +28,7 @@ img{
     border: 1px solid ;
     padding: 5px;
     margin-left: 7%;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 500px;
     height: 500px;
     display: inline-block;
@@ -49,11 +49,15 @@ button{
     margin-left: 30%;
 }
 
-.b{
-    margin-left: 45%;
-}
+
 .bb{
     text-align: center;
 }
 
-
+.footer{
+    margin-top: 5%;
+    text-align: center;
+}
+.cc{
+    margin-top: 1%;
+}
