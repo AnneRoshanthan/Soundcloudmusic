@@ -1,21 +1,60 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="//connect.soundcloud.com/sdk.js"></script>
-    <title>Sound cloud music player</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
+	<title>Soundcloud Music</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
 
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Theme Style -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	    
+          
  <div class="container-fluid back">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand center" href="#" style="color:white">Music Player</a>
@@ -29,118 +68,245 @@
               <a class="nav-link" href="https://notableappbyrosan.herokuapp.com/" target="blank">Notable-app</a>
             </li>
           
-          
-            <!-- <li class="nav-item ">
-              <a class="nav-link " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg></a>
-            </li> -->
-           
-            
-          </ul>
-        </div>
-      </nav>
-
-
-
-    
-    <h1 class="bb cc"><u>MUSIC PLAYER</u></h1>
-    <div class="container">
-    <div class="row boot">
-    
-    <div class="div col-12 col-md-5">
-        <h3 class="bb">Tamil</h3>
-        <div class="img">
-            <img src="https://tamilsongs.club/wp-content/uploads/2019/09/Tamil.jpg" alt="tamil_songs" class="card-img-top">
-     <div class="align">   
-    <button id="start1"><i class='bx bx-play' ></i></button>
-    <button id="stop1"><i class='bx bx-stop-circle'></i></button>
-</div>
-</div>
-    </div>
-
-
-
-
-       <div class="divv col-12  col-md-5">
-        <h3 class="bb">English</h3>
-        <div class="img">
-            <img src="https://1.bp.blogspot.com/-TcNYmVBRbD0/Xiln7zGNrvI/AAAAAAAABYU/nFKDGFGD9bMunMZSs6R1heDW6wKIdUgrACLcBGAsYHQ/s1600/Top_English_Music_Songs_List.jpg" alt="english_songs" class="card-img-top">
+                  
+                   
+                    
+                  </ul>
+                </div>
+              </nav>
         
-            <div class="align">  
-        <button id="start2"><i class='bx bx-play' ></i></button>
-        <button id="stop2"><i class='bx bx-stop-circle'></i></button></div>
-      
-</div>
-    </div>
-</div>
-
-
-
- <div class="row boot">
-    <div class="div col-12 col-md-5">
-        <!-- <div id="songTitle"></div> -->
-        <h3 class="bb">Hindi</h3>
-        <div class="img">
-            <img src="https://1.bp.blogspot.com/-thCOE4mTBD8/UA2KTaE8CII/AAAAAAAAAOM/hswiqTaCytUBQcwYZtW_axq36l-d1ercACPcBGAYYCw/s504/Top%2B10%2BBollywood%2BSongs%2B2012.jpg" alt="tamil_songs" class="card-img-top">
         
-            <div class="align">  
-        <button id="start3"><i class='bx bx-play' ></i></button>
-        <button id="stop3"><i class='bx bx-stop-circle'></i></button></div>
-        </div>
-    </div>
+	<!-- END .header -->
+	
+	<div class="fh5co-slider">
+		<div class="owl-carousel owl-carousel-fullwidth">
+		    <div class="item" style="background-image:url(images/slide_1.png)">
+		    	<div class="fh5co-overlay"></div>
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-8 col-md-offset-2">
+			    			<div class="fh5co-owl-text-wrap">
+						    	<div class="fh5co-owl-text text-center to-animate">
+						    		<h1 class="fh5co-lead">Ann Studio</h1>
+									<h2 class="fh5co-sub-lead" id="mm"><b>Music not only changes our mood, but it also change the way we think and our preception of the world </b></h2>
+						    	</div>
+						    </div>
+					    </div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="item" style="background-image:url(https://data.apksum.com/68/com.music.headphone.theme/screenhost/3.jpg)">
+		    	<div class="fh5co-overlay"></div>
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-8 col-md-offset-2">
+			    			<div class="fh5co-owl-text-wrap">
+						    	<div class="fh5co-owl-text text-center to-animate">
+						    		<h1 class="fh5co-lead">Ann Studio</h1>
+									<h2 class="fh5co-sub-lead " id="mm"><b>Music is a pice of art that goes in the ears straight to the heart</b></h2>
+						    	</div>
+						    </div>
+					    </div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="item" style="background-image:url(images/song.png)">
+		    	<div class="fh5co-overlay"></div>
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-8 col-md-offset-2">
+			    			<div class="fh5co-owl-text-wrap">
+						    	<div class="fh5co-owl-text text-center to-animate">
+						    		<h1 class="fh5co-lead">Ann Studio</h1>
+									<h2 class="fh5co-sub-lead"id="mm"><b>Words make you think a thought music. makes you feel a feeling.A song makes you feel a thought.</b></h2>
+						    	</div>
+						    </div>
+					    </div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="item" style="background-image:url(images/song4.jpg)">
+		    	<div class="fh5co-overlay"></div>
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-8 col-md-offset-2">
+			    			<div class="fh5co-owl-text-wrap">
+						    	<div class="fh5co-owl-text text-center to-animate">
+						    		<h1 class="fh5co-lead">Ann Studio</h1>
+									<h2 class="fh5co-sub-lead"id="mm"><b>Music is your own exprience, your own thought, your wisdom</b></h2>
+						    	</div>
+						    </div>
+					    </div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>	
 
-    <div class="divv col-12  col-md-5" >
-        <h3 class="bb">Malayalam</h3>
 
-        <div class="img">
-            <img src="https://malayalamlyrics.club/wp-content/uploads/2019/09/Top-20-Most-Popular-Malayalam-Songs.png" alt="tamil_songs" class="card-img-top">
+		<div class="fh5co-spacer fh5co-spacer-lg"></div>		
+		<!-- Products -->
+		<div class="container" id="fh5co-products">
+			<div class="row text-left">
+				<div class="col-md-8">
+					<!-- <h2 class="fh5co-section-lead music">Music Player</h2> -->
+					<h3 class="fh5co-section-sub-lead"></h3>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+            </div>
 
-            <div class="align">  
-        <button id="start4"><i class='bx bx-play' ></i></button>
-        <button id="stop4"><i class='bx bx-stop-circle'></i></button></div>
-        </div>
-    </div>
- </div>
-    
- <div class="row boot">
-    <div class="div col-12 col-md-5">
-        <h3 class="bb">Telugu</h3>
-
-        <div class="img">
-        <img src="https://a10.gaanacdn.com/images/playlists/65/8270665/crop_480x480_1600092915_8270665.jpg" alt="tamil_songs" class="card-img-top">
-
-        <div class="align">  
-        <button id="start5"><i class='bx bx-play' ></i></button>
-        <button id="stop5"><i class='bx bx-stop-circle'></i></button></div>
-        </div>
-    </div>
-          
-    <div class="divv  col-12  col-md-5">
-        <h3 class="bb">kannada</h3>
-
-        <div class="img">
-            <img src="https://www.thelivemirror.com/wp-content/uploads/2020/03/Top-20-Kannada-Songs-of-the-week-1280x720.jpg" alt="tamil_songs" class="card-img-top">
-        
-            <div class="align">  
+			<div class="row">
+				<div class="div col-12  col-md-5 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="https://tamilsongs.club/wp-content/uploads/2019/09/Tamil.jpg" alt="tamil_songs" class="img-responsive img-rounded to-animate img">
+						<h2 class="bb">Tamil Songs</h2>
+                       
+                        <div class="align">
+                        <button id="start1"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop1"><i class='bx bx-stop-circle'>Stop</i></button>
+                    </div>
+                    </div>
+				</div>
+				<div class="divv col-12  col-md-5 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="https://1.bp.blogspot.com/-TcNYmVBRbD0/Xiln7zGNrvI/AAAAAAAABYU/nFKDGFGD9bMunMZSs6R1heDW6wKIdUgrACLcBGAsYHQ/s1600/Top_English_Music_Songs_List.jpg" alt="english_songs" class="img-responsive img-rounded to-animate img">
+                        <h2 class="bb">English Songs</h2>
+                        <div class="align">
+                        <button id="start2"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop2"><i class='bx bx-stop-circle'>Stop</i></button>
+                        </div>
+					</div>
+				</div>
+				<div class="visible-sm-block visible-xs-block clearfix"></div>
+                <div class="div col-12  col-md-5 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="https://dev-resws-hungamatech-com.storage.googleapis.com/featured_content/3cf60a5560b8e089e72c30e0f54968a5_924x520.jpg" alt="tamil_songs" class="img-responsive img-rounded to-animate img">
+						<h2 class="bb">Hindi Songs</h2>
+                       
+                        <div class="align">
+                        <button id="start3"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop3"><i class='bx bx-stop-circle'>Stop</i></button>
+                    </div>
+                    </div>
+                </div>
                 
-            <button id="start6"><i class='bx bx-play' ></i></button>
-        <button id="stop6"><i class='bx bx-stop-circle'></i></button>
-    </div>
-        </div>
-    </div>
-</div>
+                
+				<div class="divv col-12  col-md-5 ">
+					<div class="fh5co-product">
+						<img src="https://malayalamlyrics.club/wp-content/uploads/2019/09/Top-20-Most-Popular-Malayalam-Songs.png" alt="malayala_songs" class="img-responsive img-rounded to-animate img">
+						<h2 class="bb">Malayala Songs</h2>
+                        <div class="align">
+                        <button id="start4"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop4"><i class='bx bx-stop-circle'>Stop</i></button>
+                    </div>
+                    </div>
+				</div>
+                
+                <div class="div col-12  col-md-5 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="https://a10.gaanacdn.com/images/playlists/65/8270665/crop_480x480_1600092915_8270665.jpg" alt="tamil_songs" class="img-responsive img-rounded to-animate img">
+						<h2 class="bb">Telugu Songs</h2>
+                       
+                        <div class="align">
+                        <button id="start5"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop5"><i class='bx bx-stop-circle'>Stop</i></button>
+                    </div>
+                    </div>
+                </div>
+                
+				<div class="divv col-12  col-md-5 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="https://www.thelivemirror.com/wp-content/uploads/2020/03/Top-20-Kannada-Songs-of-the-week-1280x720.jpg" alt="english_songs" class="img-responsive img-rounded to-animate img">
+                        <h2 class="bb">Kannada Songs</h2>
+                        <div class="align">
+                        <button id="start6"><i class='bx bx-play' >Start</i></button>
+                        <button id="stop6"><i class='bx bx-stop-circle'>Stop</i></button>
+                        </div>
+					</div>
+				</div>
+                
 
-<footer>	
-    <h3 class="bb">Copyright &copy; 2021-Anne Roshanthan</h3>		
-</footer>
-</div>
-    <!--Adding sound cloud sdk javascript-->
-    
+			</div>
+		</div>
+		<!-- Products -->
+		<div class="fh5co-spacer fh5co-spacer-lg"></div>
 
-    <script src="jquery-3.3.1.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
-    <script src="main.js"></script>
+		
 
-</body>
+		<div class="fh5co-bg-section" style="background-image: url(images/slide_2.jpg); background-attachment: fixed;">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="fh5co-hero-wrap">
+							<div class="fh5co-hero-intro text-center">
+								<h1 class="fh5co-lead"><span class="quo">&ldquo;</span>Design is not just what it looks like and feels like. Design is how it works. <span class="quo">&rdquo;</span></h1>
+								<p class="author">&mdash; <cite>Steve Jobs</cite></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer id="fh5co-footer">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="fh5co-footer-widget">
+						<h2 class="fh5co-footer-logo">Anne Roshanthan</h2>
+<h2>Contact info</h2>
+                    </div>
+					<div class="fh5co-footer-widget">
+						<ul class="fh5co-social">
+							<!-- <li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-instagram"></i></a></li> -->
+                            
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="https://anneroshanthan.github.io/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg></a>
+                      </li>
+							<li><a href="https://www.linkedin.com/in/anne-roshanthan-05113a210/"><i class="icon-linkedin"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-youtube"></i></a></li> -->
+						</ul>
+					</div>
+				</div>
+
+				
+				
+				
+			<div class="row fh5co-row-padded fh5co-copyright">
+				<div class="col-md-5">
+					<p><small>&copy; 2021 All Rights Reserved. <br><h2>Designed by: Anne Roshanthan</h2></small></p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Main JS -->
+    <script src="js/main.js"></script>
+    <script src="js/Main.js"></script>
+
+	
+	</body>
 </html>
