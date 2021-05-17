@@ -6010,11 +6010,12 @@ button:hover{
     padding: 5px 10px;
     background-color: black;
     border-radius: 5px;
+    color: white;
 }
 
 .bb{
     text-align: center;
-    color: rgb(22, 141, 28);
+    /* color: rgb(22, 141, 28); */
     font-family: 'Open Sans', sans-serif;
 }
 .align{
